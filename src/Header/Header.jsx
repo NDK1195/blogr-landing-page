@@ -1,3 +1,4 @@
+import Hero from "./Hero";
 import Navbar from "./Navbar";
 
 function Header() {
@@ -61,6 +62,7 @@ function Header() {
         </div>
         {/* background pattern */}
         <Navbar />
+        <Hero />
       </header>
     </>
   );

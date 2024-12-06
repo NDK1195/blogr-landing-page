@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        overpass: ["Overpass", "sans-serif"],
+        overpass: ["Overpass", "serif"],
         ubuntu: ["Ubuntu", "sans-serif"],
       },
       colors: {
