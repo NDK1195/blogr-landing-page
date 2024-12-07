@@ -6,21 +6,8 @@ import iconArrowDark from "../images/icon-arrow-dark.svg";
 import iconArrowLight from "../images/icon-arrow-light.svg";
 import Button from "../components/Button";
 import MenuItem from "./MenuItem";
+import { menu } from "../data/menu";
 
-const menu = [
-  {
-    title: "Product",
-    links: ["Overview", "Pricing", "Marketplace", "Features", "Integrations"],
-  },
-  {
-    title: "Company",
-    links: ["About", "Team", "Blog", "Careers"],
-  },
-  {
-    title: "Connect",
-    links: ["Contact", "Newsletter", "LinkedIn"],
-  },
-];
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [submenuIndex, setSubmenuIndex] = useState(null);

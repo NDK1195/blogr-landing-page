@@ -7,7 +7,7 @@ function Header() {
       <header className="relative h-[600px] rounded-bl-[100px] bg-intro">
         {/* background pattern */}
         <div className="absolute left-0 top-0 h-[600px] w-full overflow-hidden rounded-bl-[100px]">
-          <div className="absolute -left-[335px] -top-[250px] lg:-left-[470px] lg:-top-[2700px]">
+          <div className="absolute -left-[335px] -top-[250px] lg:-left-[440px] lg:-top-[2650px]">
             {/* pattern mobile */}
             <svg
               width="1324"
