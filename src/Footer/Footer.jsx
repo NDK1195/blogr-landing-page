@@ -15,9 +15,9 @@ function Footer() {
               className="flex w-full flex-col items-center gap-5 lg:items-start"
               key={item.title}
             >
-              <h3 className="text-lg leading-[33px] lg:text-[15px]">
+              <h4 className="text-lg leading-[33px] lg:text-[15px]">
                 {item.title}
-              </h3>
+              </h4>
               <ul className="flex flex-col items-center gap-2 lg:items-start">
                 {item.links.map((link) => (
                   <li
